@@ -147,6 +147,14 @@
             tiled: 'true'
         });
 		
+		var ipress = L.tileLayer.wms('http://geoservidorperu.minam.gob.pe/arcgis/services/ANP/MapServer/WmsServer?', {
+            layers: '1',
+            format: 'image/png',
+            transparent: true,
+            tiled: 'true'
+        });
+		
+		
 		
 			
 		
@@ -168,7 +176,11 @@
             "Riesgo Agrometeorologico": {
                 "Del Cafe ": raCafe,
 				"Del Cacao ": raCacao
+            },
+			"Salud": {
+                "Ipress ": ipress
             }
+	
 			
         };
 		
