@@ -1,0 +1,2 @@
+http://idesep.senamhi.gob.pe:80/geoserver/g_08_03/wms
+g_08_03:08_03_032_03_001_522_2012_12_31
