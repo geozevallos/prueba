@@ -147,7 +147,7 @@
             tiled: 'true'
         });
 		
-		var ipress = L.tileLayer.wms('http://geoservidorperu.minam.gob.pe/arcgis/services/ANP/MapServer/WmsServer?', {
+		var rti = L.tileLayer.wms('http://geoservidorperu.minam.gob.pe/arcgis/services/ANP/MapServer/WmsServer?', {
             layers: '1',
             format: 'image/png',
             transparent: true,
@@ -177,8 +177,8 @@
                 "Del Cafe ": raCafe,
 				"Del Cacao ": raCacao
             },
-			"Salud": {
-                "Ipress ": ipress
+			"MINAM": {
+                "Reservas territoriales indigenas ": rti
             }
 	
 			
