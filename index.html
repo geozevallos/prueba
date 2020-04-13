@@ -140,12 +140,7 @@
         });
 
 		
-		var depa = L.tileLayer.wms('http://localhost:8087/geoserver/sencico.pw/wms', {
-            layers: 'sencico.pw:departamento',
-            format: 'image/png',
-            transparent: true,
-            tiled: 'true'
-        });
+		
 		
 		var rti = L.tileLayer.wms('http://geoservidorperu.minam.gob.pe/arcgis/services/ANP/MapServer/WmsServer?', {
             layers: '1',
@@ -161,9 +156,7 @@
 		
         //Overlay grouped layers    
         var groupOverLays = {
-			"Tematicos": {
-                "Departamentos ": depa
-            },
+			
             "Avisos": {
                 "Aviso 001 ": aviso001,
                 "Aviso 002 ": aviso002,
